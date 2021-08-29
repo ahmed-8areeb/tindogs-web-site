@@ -1,0 +1,204 @@
+body {
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+h1 {
+
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h2 {
+
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+
+  font-size: 1.49rem;
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+/*title part-->*/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 150px;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/*navbar*/
+.navbar-expand-lg {
+  padding-bottom: 4.5rem;
+  font-size: 20px;
+  font-family: "Montserrat-light";
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+/*2 download button*/
+.btn {
+  margin: 10px 15px 0;
+  width: 170px;
+}
+
+.btn-dark {
+  margin-left: 0;
+}
+
+/*dog image*/
+.dogimg {
+  transform: rotate(25deg);
+  width: 21%;
+  position: absolute;
+}
+
+/* when a phine is accses the page */
+@media only screen and (max-width:1100px) {
+  .dogimg {
+    position: static;
+    transform: rotate(0);
+    width: auto;
+    margin-top: 20px;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+/*features part-->*/
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+/*middel words*/
+.mid-words {
+
+  padding: 5%;
+}
+
+.mid-signs {
+  margin: 1rem;
+  color: #ef8172;
+
+}
+
+.mid-signs:hover {
+  color: #ff4c68;
+}
+
+
+
+/*testimonials part-->*/
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+/*dog image number 2*/
+.testdogimg {
+  width: 22%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+/*press part-->*/
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+/*press icons*/
+.pressicon {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*carousel item*/
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+/*pricing part-->*/
+#pricing {
+
+  padding: 100px;
+}
+
+/*buttons in cards*/
+.btn-pricing {
+  width: 100%;
+  margin: auto;
+}
+
+/*cards styling*/
+.col-pricing {
+  padding: 3% 2%;
+}
+
+
+
+/*download part cta-->*/
+#cta {
+
+  background-color: #ff4c68;
+  padding: 9% 22%;
+}
+
+.h3-cta {
+
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+
+/*footer part-->*/
+#footer {
+
+  border-color: #fff;
+  padding: 3% 15%;
+}
+
+/*footer icons styling*/
+.footer-icons {
+  padding: 10px 10px 30px;
+  text-decoration: none;
+  color: #000;
+}
